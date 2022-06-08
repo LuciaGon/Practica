@@ -17,7 +17,7 @@ public class Derivada {
 		return 0;
 	}
 	
-	public String derivadasPolinomicas(String enunciado) {
+	public String derivadaPolinomica(String enunciado) {
 		String solucion = "";
 		if (enunciado.indexOf(SUMA) == -1 && enunciado.indexOf(RESTA) == -1) {
 			if (enunciado.indexOf(X) == -1) {
